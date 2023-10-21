@@ -1,0 +1,1 @@
+#  pyinstaller -F -w -i clock.ico clock_program.py
