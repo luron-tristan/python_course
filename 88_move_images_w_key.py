@@ -4,13 +4,13 @@ from tkinter import *
 
 # def move_up(event):
 #   label.place(x=label.winfo_x(), y=label.winfo_y()-10)
-  
+
 # def move_down(event):
 #   label.place(x=label.winfo_x(), y=label.winfo_y()+10)
-  
+
 # def move_left(event):
 #   label.place(x=label.winfo_x()-10, y=label.winfo_y())
-  
+
 # def move_right(event):
 #   label.place(x=label.winfo_x()+10, y=label.winfo_y())
 
@@ -33,20 +33,23 @@ from tkinter import *
 # window.mainloop()
 
 
-
 # move an image on a canvas
 
 def move_up(event):
-  canvas.move(my_image, 0, -10)
+    canvas.move(my_image, 0, -10)
+
 
 def move_down(event):
-  canvas.move(my_image, 0, 10)
+    canvas.move(my_image, 0, 10)
+
 
 def move_left(event):
-  canvas.move(my_image, -10, 0)
+    canvas.move(my_image, -10, 0)
+
 
 def move_right(event):
-  canvas.move(my_image, 10, 0)
+    canvas.move(my_image, 10, 0)
+
 
 window = Tk()
 

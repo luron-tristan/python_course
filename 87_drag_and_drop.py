@@ -28,5 +28,5 @@ label.bind("<B1-Motion>", drag_motion)
 label2.bind("<Button-1>", drag_start)
 label2.bind("<B1-Motion>", drag_motion)
 
-window.geometry('200x200+2000+200')
+window.geometry('200x200')
 window.mainloop()
